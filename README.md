@@ -1,4 +1,4 @@
-# School Radard
+# School Radar
 
 ## Why is this site useful? 
 
