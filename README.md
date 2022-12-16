@@ -1,5 +1,7 @@
 # School Radar
 
+### [Live Demo](https://taupe-tiramisu-9054e2.netlify.app/)
+
 ## Why is this site useful? 
 
 This site is designed to assist families with children looking to move to New York City. Due to the diversity of neighborhoods across the give boroughs, this tool seeks to help users better understand the context of where they might move to!
