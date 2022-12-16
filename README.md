@@ -28,6 +28,15 @@ Using data from NYC Open Data, American Community Survey (ACS), the Community He
 
 [NYC Department of Health and Mental Hygiene](https://data.cityofnewyork.us/browse?Dataset-Information_Agency=Department+of+Health+and+Mental+Hygiene+%28DOHMH%29)
 
+## Screenshots
+
+![child to park ratio cloropleth of map](https://github.com/MargaretHanson/childfriendlycities/blob/main/screenshots/cloropleth-child-to-park-ratio.png?raw=true)
+
+![pedestrian safety cloropleth of map](https://github.com/MargaretHanson/childfriendlycities/blob/main/screenshots/cloropleth-pedestrian-safety.png?raw=true)
+
+![zoomed in view](https://github.com/MargaretHanson/childfriendlycities/blob/main/screenshots/zoomed-in.png?raw=true)
+
+![list of schools on the map](https://github.com/MargaretHanson/childfriendlycities/blob/main/screenshots/list-view.png?raw=true)
 
 ## Development and build notes
 The geocoder service used is Geocodio. The API key for Geocodio can be set up in `/src/connections/geocoder.ts`.
