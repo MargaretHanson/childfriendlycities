@@ -378,7 +378,7 @@ export default defineComponent({
     drawAddress(lat: number, lon: number) {
       const asPixels = this.mapproj([lon, lat]);
       if (asPixels !== null) {
-        this.mapg.selectAll("circle").data([1]).join("circle")
+        this.mapg.selectAll("circle.addrpin").data([1]).join("circle")
           .attr("cx", asPixels[0])
           .attr("cy", asPixels[1])
           .attr("r", 6)
@@ -452,15 +452,15 @@ export default defineComponent({
 <style>
 @keyframes pulse {
   0% {
-    transform: scale(0.5);
+    transform: translate(0,0) scale(1);
   }
 
-  70% {
-    transform: scale(1);
+  50% {
+    transform: translate(0,4%) scale(1.5);
   }
 
   100% {
-    transform: scale(0.5);
+    transform: translate(0,0) scale(1);
   }
 }
 
